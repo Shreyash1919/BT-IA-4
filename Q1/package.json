@@ -1,0 +1,23 @@
+{
+  "name": "supply-chain-blockchain",
+  "version": "1.0.0",
+  "description": "Supply Chain Tracking on Hyperledger Fabric using Solidity",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": [
+    "blockchain",
+    "supply-chain",
+    "solidity",
+    "hyperledger-fabric"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
